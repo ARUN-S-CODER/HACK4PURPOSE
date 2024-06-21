@@ -52,14 +52,14 @@
       ├── contest.html
       └── logout.html
 
-    🛠️ Technologies Used
+  🛠️ Technologies Used
 
         HTML5: Structure of the web pages.
         CSS3: Styling and animations for an attractive UI.
         JavaScript: Interactivity and dynamic content.
         MongoDB: Database for storing user and project information.
 
-    🚀 Getting Started
+  🚀 Getting Started
 
          1. Clone the repository:
                git clone https://github.com/yourusername/global-impact-nexus.git
@@ -73,7 +73,7 @@
 
          5. Open `index.html` in your browser to view the project.
 
-    📚 Pages Overview
+  📚 Pages Overview
 
        🔐 Login & Signup
             Secure authentication system for users and investors.
@@ -108,10 +108,11 @@
            Securely log out from the session.
               => `logout.html`
 
-    ✍️ Contribution
-          Contributions are welcome! Please open an issue or submit a pull request with your improvements.
+
+    ✍️ Contribution  
+             Contributions are welcome! Please open an issue or submit a pull request with your improvements.
 
 
-    Thank you for using Global Impact Nexus! Together, we can make a difference. 🌟
+        Thank you for using Global Impact Nexus! Together, we can make a difference. 🌟
 
 
