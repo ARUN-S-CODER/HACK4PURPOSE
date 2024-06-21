@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/chat.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></b></li>
+                <li><a href="profile.html"><b>My Profile</b></a></li>
+                <li><a href="chat.html"><b>Chat</b></a></li>
+                <li><a href="dashboard.html"><b>Dashboard</b></a></li>
+                <li><a href="project.html"><b>Projects</b></a></li>
+                <li><a href="contest.html"><b>Contests</b></a></li>
+                <li><a href="logout.html"><b>Logout</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h2>Team Chat</h2>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will appear here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chat-input" placeholder="Type a message...">
+                <button id="send-message-button">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/chat.js"></script>
+</body>
+</html>

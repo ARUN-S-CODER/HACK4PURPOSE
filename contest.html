@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contests</title>
+    <link rel="stylesheet" href="css/contest.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></b></li>
+                <li><a href="profile.html"><b>My Profile</b></a></li>
+                <li><a href="chat.html"><b>Chat</b></a></li>
+                <li><a href="dashboard.html"><b>Dashboard</b></a></li>
+                <li><a href="project.html"><b>Projects</b></a></li>
+                <li><a href="contest.html"><b>Contests</b></a></li>
+                <li><a href="logout.html"><b>Logout</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Upcoming Contests</h1>
+        <div class="tabs">
+            <button class="tablink" onclick="openTab(event, 'Global')">Global</button>
+            <button class="tablink" onclick="openTab(event, 'National')">National</button>
+            <button class="tablink" onclick="openTab(event, 'Local')">Local</button>
+        </div>
+        <div id="Global" class="tabcontent">
+            <h2>Global Contests</h2>
+            <div class="event">
+                <img src="globalevent.jpg" alt="Global Event 1">
+                <div class="event-details">
+                    <h3>Global Contest 1</h3>
+                    <p>Date: July 20, 2024</p>
+                    <p>Location: New York, USA</p>
+                    <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <!-- Add more global events here -->
+        </div>
+        <div id="National" class="tabcontent">
+            <h2>National Contests</h2>
+            <div class="event">
+                <img src="nationalevent.jpg" alt="National Event 1">
+                <div class="event-details">
+                    <h3>National Contest 1</h3>
+                    <p>Date: August 15, 2024</p>
+                    <p>Location: New Delhi, India</p>
+                    <p>Details: Geo Hackathon by Ministry of Environment protection.</p>
+                </div>
+            </div>
+            <!-- Add more national events here -->
+        </div>
+        <div id="Local" class="tabcontent">
+            <h2>Local Contests</h2>
+            <div class="event">
+                <img src="localevent.jpg" alt="Local Event 1">
+                <div class="event-details">
+                    <h3>Local Contest 1</h3>
+                    <p>Date: September 10, 2024</p>
+                    <p>Location: Chennai, TamilNadu</p>
+                    <p>Details: Hack4Purpose hackathon in Anna University.</p>
+                </div>
+            </div>
+            <!-- Add more local events here -->
+        </div>
+    </div>
+    <script src="js/contest.js"></script>
+</body>
+</html>

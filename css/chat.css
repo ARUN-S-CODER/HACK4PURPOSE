@@ -1,0 +1,165 @@
+/* chat.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+    animation: gradientAnimation 10s ease infinite;
+    color: red;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header {
+    background: #3572EF;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+}
+
+.container {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    background: blue;
+    border-radius: 10px;
+    box-shadow: 10px 8px 10px white;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    background: blue;
+    padding: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-header h2 {
+    margin: 0;
+    color: red;
+}
+
+.chat-messages {
+    flex-grow: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    background: rgba(255, 255, 0, 0.61);
+}
+
+.message {
+    margin-bottom: 1rem;
+    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 20px;
+    position: relative;
+    max-width: 60%;
+    clear:both;
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+.message.sent {
+    background: #FFF455;
+    align-self: flex-start;
+    text-align: left;
+    float: left;
+}
+
+.message.received {
+    background: #9B86BD;
+    align-self: flex-end;
+    text-align: right;
+    float: right;
+}
+
+.message .timestamp {
+    font-size: 0.8rem;
+    color: #bdc3c7;
+    position: absolute;
+    bottom: -1.2rem;
+    right: 0.5rem;
+}
+
+.chat-input {
+    display: flex;
+    padding: 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.chat-input input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.chat-input input:focus {
+    outline: none;
+}
+
+.chat-input button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    background: #f1c40f;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.chat-input button:hover {
+    background: #e1b30e;
+}

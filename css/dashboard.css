@@ -1,0 +1,115 @@
+/* dashboard.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+    animation: gradientAnimation 10s ease infinite;
+    color: #fff;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header {
+    background:#3572EF;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+}
+
+.container {
+    padding-top: 70px;
+    margin: 2rem;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #f1c40f;
+}
+
+.dashboard-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    background: violet;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 45%;
+    margin-bottom: 2rem;
+}
+
+.card h2 {
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.progress-bar {
+    background: #34495e;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+
+.progress-bar .progress {
+    background: #2ecc71;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+canvas {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#ai-suggestions {
+    font-size: 1.2rem;
+    color: white;
+}

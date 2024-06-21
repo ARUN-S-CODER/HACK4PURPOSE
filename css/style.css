@@ -1,0 +1,98 @@
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #1abc9c, #3498db);
+    animation: gradientAnimation 10s ease infinite;
+    color: #fff;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+.container {
+    background: black; /* Make the login box color different from the background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: red; /* Different color for text */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: white; /* Different color for text */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #f0f0f0; /* Light background for inputs */
+}
+
+button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+a {
+    color: #3498db; /* Link color matching the button */
+    text-decoration: none;
+    margin-top: 1rem;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+img{
+    height: 150px;
+    width: 50px;
+}

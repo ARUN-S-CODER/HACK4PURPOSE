@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo">
+        <nav>
+            <ul>
+                
+                <li><a href="index.html"><b>Home</b></a></b></li>
+                <li><a href="profile.html"><b>My Profile</b></a></li>
+                <li><a href="chat.html"><b>Chat</b></a></li>
+                <li><a href="dashboard.html"><b>Dashboard</b></a></li>
+                <li><a href="project.html"><b>Projects</b></a></li>
+                <li><a href="contest.html"><b>Contests</b></a></li>
+                <li><a href="logout.html"><b>Logout</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Dashboard</h1>
+        <div class="dashboard-section">
+            <div class="card">
+                <h2>Ongoing Project Progress</h2>
+                <div class="progress-bar">
+                    <div class="progress" id="progress-bar" style="width: 75%;">75%</div>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Investment Gains</h2>
+                <canvas id="investmentChart"></canvas>
+            </div>
+            <div class="card">
+                <h2>Domain Usage in Projects</h2>
+                <canvas id="domainChart"></canvas>
+            </div>
+            <div class="card">
+                <h2>AI Suggestions</h2>
+                <p id="ai-suggestions">This user can give the best output in AI and Machine Learning projects based on previous performance and domain expertise.</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
