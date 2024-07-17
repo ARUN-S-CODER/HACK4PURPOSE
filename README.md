@@ -1,21 +1,17 @@
-##  🌍 Global Impact Nexus
-
-    Welcome to Global Impact Nexus, a platform designed to connect users with investors, manage projects, and participate in contests to secure funding. 
-    This project aims to promote sustainable development and showcase the impact of investments on various projects.
+#  🌍 Global Impact Nexus
+#### Welcome to Global Impact Nexus, a platform designed to connect users with investors, manage projects, and participate in contests to secure funding. This project aims to promote sustainable development and showcase the impact of investments on various projects.
 
  ## ✨ Features
+&emsp; 👉 `Login & Signup`: Secure authentication for users and investors.<br>
+&emsp; 👉 `Home Page`: Overview of the importance of the project and sustainable development.<br>
+&emsp; 👉 `My Profile`: User and investor profile management.<br>
+&emsp; 👉 `Chat`: Communication tool for users, team members, and investors.<br>
+&emsp; 👉 `Dashboard`: Visual analytics of project progress and investment impact.<br>
+&emsp; 👉 `Projects`: Manage and track project details.<br>
+&emsp; 👉 `Contests`: Discover upcoming events and investment opportunities.<br>
+&emsp; 👉 `Logout`: Securely log out of the session.<br>
 
-     Login & Signup: Secure authentication for users and investors.
-     Home Page: Overview of the importance of the project and sustainable development.
-     My Profile: User and investor profile management.
-     Chat: Communication tool for users, team members, and investors.
-     Dashboard: Visual analytics of project progress and investment impact.
-     Projects: Manage and track project details.
-     Contests: Discover upcoming events and investment opportunities.
-     Logout: Securely log out of the session.
-
-  ## 📁 Project Structure
-
+ ## 📁 Project Structure
       Global Impact Nexus
       │
       ├── css
@@ -53,63 +49,50 @@
       └── logout.html
 
   ## 🛠️ Technologies Used
+&emsp; 👉 HTML5: Structure of the web pages.<br>
+&emsp; 👉 CSS3: Styling and animations for an attractive UI.<br>
+&emsp; 👉 JavaScript: Interactivity and dynamic content.<br>
+&emsp; 👉 MongoDB: Database for storing user and project information.<br>
+&emsp; 👉 Flask: For Backend Support.<br>
 
-        HTML5: Structure of the web pages.
-        CSS3: Styling and animations for an attractive UI.
-        JavaScript: Interactivity and dynamic content.
-        MongoDB: Database for storing user and project information.
-
-  ## 🚀 Getting Started
-
-         1. Clone the repository:
-               git clone https://github.com/yourusername/global-impact-nexus.git
-    
-         2. Navigate to the project directory:
-               cd global-impact-nexus
-    
-         3. Open the project in your favorite code editor.
-    
-         4. Start a local server (e.g., using VSCode Live Server or any other method).
-
-         5. Open `index.html` in your browser to view the project.
 
   ## 📚 Pages Overview
-        🔐 Login & Signup
-            Secure authentication system for users and investors.
-              => `login.html`
-              => `signup.html`
+&emsp;🔐 Login & Signup<br>
+     &emsp; &emsp; &emsp; Secure authentication system for users and investors.<br>
+     &emsp; &emsp; &emsp; &emsp;     => `login.html`<br>
+     &emsp; &emsp; &emsp; &emsp;     => `signup.html`<br>
 
-        🏠 Home Page
-            Overview of project importance and sustainable development.
-              => `home.html`
+ &emsp;🏠 Home Page<br>
+  &emsp; &emsp; &emsp; Overview of project importance and sustainable development.<br>
+        &emsp; &emsp; &emsp; &emsp;       => `home.html`<br>
 
-        👤 My Profile
-            Manage user/investor profile information.
-              => `profile.html`
+ &emsp;👤 My Profile<br>
+ &emsp; &emsp; &emsp;            Manage user/investor profile information.<br>
+  &emsp; &emsp; &emsp; &emsp;             => `profile.html`<br>
 
-        💬 Chat
-           Communicate with team members and investors.
-              => `chat.html`
+  &emsp;       💬 Chat<br>
+   &emsp; &emsp; &emsp;         Communicate with team members and investors.<br>
+   &emsp; &emsp; &emsp; &emsp;            => `chat.html`<br>
 
-        📊 Dashboard
-           Visual representation of project progress and investment impact.
-              => `dashboard.html`
+   &emsp;      📊 Dashboard<br>
+   &emsp; &emsp; &emsp;         Visual representation of project progress and investment impact.<br>
+   &emsp; &emsp; &emsp; &emsp;            => `dashboard.html`<br>
 
-        📁 Projects
-           Manage project details and track progress.
-              => `project.html`
+ &emsp; 📁 Projects<br>
+  &emsp; &emsp; &emsp;          Manage project details and track progress.<br>
+  &emsp; &emsp; &emsp; &emsp;             => `project.html` <br>
 
-        🏆 Contests
-           Discover upcoming events and funding opportunities.
-              => `contest.html`
+ &emsp; 🏆 Contests<br>
+  &emsp; &emsp; &emsp;          Discover upcoming events and funding opportunities.<br>
+  &emsp; &emsp; &emsp; &emsp;             => `contest.html`<br>
 
-        🔓 Logout
-           Securely log out from the session.
-              => `logout.html`
+  &emsp;       🔓 Logout<br>
+  &emsp; &emsp; &emsp;          Securely log out from the session.<br>
+  &emsp; &emsp; &emsp; &emsp;             => `logout.html`<br>
 
 
-  ## ✍️ Contribution  
-          Contributions are welcome! Please open an issue or submit a pull request with your improvements.
+  ## ✍️ Contribution  <br>
+ &emsp; &emsp; Contributions are welcome! Please open an issue or submit a pull request with your improvements.
 
 
   ####  Thank you for using Global Impact Nexus! Together, we can make a difference. 🌟
